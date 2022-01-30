@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AllocateAppointments"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Content!! Don't proceed!!"
+        android:textColor="@color/black"
+        android:id="@+id/child_content"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/red"
+        android:textAlignment="viewEnd"
+        android:gravity="end" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date"
+        android:editable="false"
+        android:hint="Select Date"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red"
+        android:textAlignment="viewStart"
+        android:id="@+id/emailerror"
+        android:gravity="start" />
+
+        <Button
+            android:id="@+id/lsend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Appointment"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"
+            android:textSize="12sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"/>
+
+</LinearLayout>

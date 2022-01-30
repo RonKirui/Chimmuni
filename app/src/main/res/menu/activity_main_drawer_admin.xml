@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_admin"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_childrenlist"
+            android:icon="@drawable/ic_appointments"
+            android:title="Registered Children"/>
+        <item
+            android:id="@+id/nav_profile_admin"
+            android:icon="@drawable/ic_baseline_profile"
+            android:title="Profile"/>
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_logout_admin"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Sign Out" />
+
+        </menu>
+    </item>
+</menu>

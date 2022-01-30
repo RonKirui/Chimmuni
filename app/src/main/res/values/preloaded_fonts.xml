@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abel</item>
+        <item>@font/aclonica</item>
+        <item>@font/actor</item>
+        <item>@font/allan</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/almendra_display</item>
+        <item>@font/antic</item>
+        <item>@font/audiowide</item>
+        <item>@font/coming_soon</item>
+        <item>@font/delius</item>
+        <item>@font/delius_unicase</item>
+    </array>
+</resources>

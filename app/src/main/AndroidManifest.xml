@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chimmuniapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <application
+        android:name=".NotificationPoUp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chimmuni"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChimmuniApp">
+        <service android:name=".AppService"/>
+        <activity
+            android:name=".AllocateAppointments"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".ChicldDetailsAdmin" />
+        <activity android:name=".Appointments" />
+        <activity
+            android:name=".HomeAdmin"
+            android:label="@string/title_activity_home_admin"
+            android:theme="@style/Theme.ChimmuniApp.NoActionBar" />
+        <activity android:name=".CrerateAccountAdmin" />
+        <activity android:name=".LoginAdmin" />
+        <activity android:name=".ListChildren" />
+        <activity android:name=".RgisterChild" />
+        <activity android:name=".CreateAccount" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.ChimmuniApp.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

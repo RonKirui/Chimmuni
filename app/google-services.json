@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29763177318",
+    "project_id": "chimmuni-app",
+    "storage_bucket": "chimmuni-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29763177318:android:2ad552b455695e9c5e16a7",
+        "android_client_info": {
+          "package_name": "com.example.chimmuniapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29763177318-3lj0nonl37sc14k59r06eetcu469qjr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn7ntwuWHsncd3N9lRM3aG25b9m-JVezk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29763177318-3lj0nonl37sc14k59r06eetcu469qjr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
